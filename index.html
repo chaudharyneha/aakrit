@@ -1,190 +1,28 @@
+
 <!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
     <head>
-        <title>Aakrit website index </title>
+        <title>Aaku Year 1</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
         <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
- <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    
-        <style>
-            //style for navbar
-            .navbar {
-                margin-top: 0px;
-                background-color: transparent;
-                height: 130px;
-            }
-            .navbar-nav>li {
-                padding-right: 50px;
-                font-size: 2em;
-                font-family:sans-serif;
-            }
-            .navbar-brand {
-                padding-top: 48px;
-                padding-left: 50px;
-                font-size: 2.5em;
-                font-family:sans-serif;
-            }
-            .navbar-nav li img {
-                height: 100px;   
-            }
-             .carousel-inner > .item > img,
-        .carousel-inner > .item > a > img {
-        width: 50%;
-        margin: auto;
-        }
-        .col-md-4 > .img-responsive > img{
-            width: 350px;
-            height: 255px;
-        }
-        .col-md-4 > .img-responsive{
-            margin: 10px;
-        }
-        #gallery-text1,
-        #gallery-text2,
-        #gallery-text3,
-        #gallery-text4,
-        #gallery-text5,
-        #gallery-text6,
-        #gallery-text7,
-        #gallery-text8,
-        #gallery-text9{
-            background:#f8f8f8;
-            height:1px;
-            width:350px;
-            position: absolute;
-            z-index: 1;
-        }      
-        
-        #rotatingWheelBig{
-            height: 400px;
-            width: 400px;
-            border-radius: 250px;
-            background-color: #75c700;
-            position: absolute;
-            margin-left: 360px;
-            z-index: 1;
-        }
-       
-        #wheelWhite {
-            height:160px;
-            width: 160px;
-            border-radius: 160px;
-            background-color: #f8f8f8;
-            position: absolute;
-            left: 125px;
-            top: 120px;
-            z-index: 2;
-        }
-  
-        #wheelYellow {
-            height: 140px;
-            width: 140px;
-            border-radius: 140px;
-            background-color: #FFE000;
-            position: absolute;
-            left: 135px;
-            top: 130px;
-            z-index: 3;
-        }
-        #circleLeftOnWheelGreen {
-            height: 100px;
-            width: 100px;
-            border-radius: 100px 100px;
-            background-color: #75c700;
-            position: absolute;
-            margin-left: 400px;
-            margin-top: 40px;
-            z-index: 1;  
-        }
-        .whiteCircleImageContainer1 > img, 
-        .whiteCircleImageContainer2 > img,
-        .whiteCircleImageContainer3 > img,
-        .whiteCircleImageContainer4 > img,
-        .whiteCircleImageContainer5 > img,
-        .whiteCircleImageContainer6 > img {
-            height: 60px;
-            width: 50px;
-            position: relative;
-            left: 15px;
-            top: 10px;
-            z-index: 3;
-        }
-        .whiteCircleImageContainer1,
-        .whiteCircleImageContainer2,
-        .whiteCircleImageContainer3,
-        .whiteCircleImageContainer4,
-        .whiteCircleImageContainer5,
-        .whiteCircleImageContainer6 {
-            height: 80px;
-            width: 80px;
-            border-radius: 80px;
-            background-color: #f8f8f8;
-            position: absolute;
-            z-index: 2;
-    /*
-     * CSS Please is your friend for ensuring cross browser syntax
-     */
-    -webkit-animation: images 8s linear infinite; /* Chrome, Safari 5 */
-       -moz-animation: images 8s linear infinite; /* Firefox 5-15 */
-         -o-animation: images 8s linear infinite; /* Opera 12+ */
-            animation: images 8s linear infinite; /* Chrome, Firefox 16+, 
-                                                     IE 10+, Safari 5 */	
-        }
-        .whiteCircleImageContainer1 {
-            left: 160px;
-            top: 160px;
-        }
-        .whiteCircleImageContainer2 {
-            left: 160px;
-            top: 85px;
-        }
-        .whiteCircleImageContainer3 {
-            left: 160px;
-            top: -10px;
-        }
-        .whiteCircleImageContainer4 {
-            left: 160px;
-            top: 160px;
-        }
-        .whiteCircleImageContainer5 {
-            left: 160px;
-            top: 160px;
-        }
-        .whiteCircleImageContainer6 {
-            left: 160px;
-            top: 160px;
-        }
-@-webkit-keyframes images {
-	from { 	-webkit-transform: rotate(0deg) translateX(150px) rotate(0deg); }
-	to   {  -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
-}
-
-@-moz-keyframes images {
-	from { 	-moz-transform: rotate(0deg) translateX(150px) rotate(0deg); }
-	to   {  -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
-}
-
-@-o-keyframes images {
-	from { 	-o-transform: rotate(0deg) translateX(150px) rotate(0deg); }
-	to   {  -o-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
-}
-
-@keyframes images {
-	from { 	transform: rotate(0deg) translateX(150px) rotate(0deg); }
-	to   {  transform: rotate(360deg) translateX(150px) rotate(-360deg); }
-}
-
-
-
-        </style>
+      <!-- google font-->
+<link href='http://fonts.googleapis.com/css?family=Fontdiner+Swanky' rel='stylesheet' type='text/css'>
+<link href="styles.css" rel="stylesheet">
+<link href="gallery.css" rel="stylesheet">
     </head>
     <body>
+         <!-- navbar -->
         <nav class="navbar navbar-default">
             <div class="container-fluid">
               <!-- Brand and toggle get grouped for better mobile display -->
@@ -195,98 +33,200 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Aakrit Seth</a>
+                  <a class="navbar-brand" href="aaku.html">Aakrit <br /><br />Seth</a>
               </div>
 
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><img src="year1.jpg">Year1</img></a></li>
-                    <li><a href="#"><img src="year2.png">Year2</img></a></li>
-                  <li><a href="#"><img src="year3.png">Year3</img></a></li>
+                    <li><a href="year1.html"><div class="navbar-circle"><img src="year1.png"><br />Year1</img></div></a></li>
+                    <li><a href="year2.html"><div class="navbar-circle"><img src="year2.png"><br />Year2</img></div></a></li>
+                    <li><a href="year3.html"><div class="navbar-circle"><img src="year3.png"><br />Year3</img></div></a></li>
+                    <li><a href="year4.html"><div class="navbar-circle"><img src="year4.png"><br /> Year4 </img></div></a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav> <!-- .navbar-default -->
-        
-        
-        <div class="container">
-        <br>
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="DSCN0766.JPG" alt="Chania" width="460" height="345">
-                    </div>
-                    <div class="item">
-                        <img src="DSCN0769.JPG" alt="Chania" width="460" height="345">
-                    </div>
-                    <div class="item">
-                        <img src="DSCN0768.JPG" alt="Flower" width="460" height="345">
-                    </div>
-
-                    <div class="item">
-                        <img src="DSCN0767.JPG" alt="Flower" width="460" height="345">
-                    </div>
-                </div>
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div> <!-- /.carousal container -->    
-        
-      <div class="container">
-          <br />
-          <br />
-            <div id="rotatingWheelBig">
-                    <div class="whiteCircleImageContainer1"><img src="tiger.jpg" alt="tiger"></img></div>
-                    <div class="whiteCircleImageContainer2"><img src="tiger.jpg" alt="tiger"></img></div>
-                    <div class="whiteCircleImageContainer3"><img src="tiger.jpg" alt="tiger"></img></div>
-                    <div class="whiteCircleImageContainer4"><img src="tiger.jpg" alt="tiger"></img></div>
-                    <div class="whiteCircleImageContainer5"><img src="tiger.jpg" alt="tiger"></img></div>
-                    <div class="whiteCircleImageContainer6"><img src="tiger.jpg" alt="tiger"></img></div>
-                <div id="wheelWhite"></div>
-                <div id="wheelYellow"></div>
-                <div id="circleLeftOnWheelGreen"></div>
-                <div id="circleRightOnWheelGreen"></div>
-          </div>
-        
+      
+        <!-- carousel -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="babypics/year1/19.JPG" alt="Chania" width="460" height="345">
       </div>
-       
-        <h1> have a look<h1>
-<br /><br />                
-<br /><br />                
-<br /><br />                
-<br /><br />                
-<br /><br />                
-<br /><br />                
-<br /><br />                
-<br /><br />                
-                <script> 
-                    $(document).ready(function(){
-                        $("#rotatingWheelBig").mouseover(function(){
-                            $("#rotatingWheelBig, #wheelWhite, #wheelYellow").css("transform", "scale(1.3,1.3)");
-                        });
-                        $("#rotatingWheelBig").mouseout(function(){
-                            $("#rotatingWheelBig, #wheelWhite, #wheelYellow").css("transform", "scale(1,1)");
-                        });
-                    });
-                    
-                </script>
 
+      <div class="item">
+        <img src="babypics/year1/46.JPG" alt="Chania" width="460" height="345">
+      </div>
+    
+      <div class="item">
+        <img src="babypics/year1/10.JPG" alt="Flower" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="babypics/year1/1.JPG" alt="Flower" width="460" height="345">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div> <!-- /.carousal container -->
+ <br /><br />
+<!-- Picture Gallery -->
+<div class="container">
+    <ul class="row gallery">
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/1.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/2.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/3.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/4.jpg" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/5.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/6.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/7.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/8.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/9.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/10.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/11.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/12.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/13.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/14.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/15.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/16.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/17.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/18.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/19.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/20.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/21.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/22.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/23.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/24.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/25.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/26.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/27.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/28.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/29.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/30.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/31.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/32.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/33.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/34.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/35.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/36.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/37.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/38.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/39.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/40.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/41.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/42.JPG" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/43.jpg" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/44.jpg" class="img-thumbnail"></li>
+        <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="babypics/year1/45.jpg" class="img-thumbnail"></li>
+        
+       
+     </ul>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">         
+          <div class="modal-body">                
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+<script> 
+$(document).ready(function(){
+           $('li img').on('click',function(){
+                var src = $(this).attr('src');
+                var img = '<img src="' + src + '" class="img-responsive"/>';
+                $('#myModal').modal();
+                $('#myModal').on('shown.bs.modal', function(){
+                    $('#myModal .modal-body').html(img);
+                });
+                $('#myModal').on('hidden.bs.modal', function(){
+                    $('#myModal .modal-body').html('');
+                });
+           });  
+        });
+
+</script> 
+
+<br />   <br />
+<br />   <br />
+<br />   <br />
+<br />   <br />
+
+
+<footer>
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> About</h3>
+                    <ul>
+                        <li> <a href="#"> About Aakrit </a> </li>
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Year1 </h3>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Year2 </h3>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Year3 </h3>
+                </div>
+                <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
+                    <h3> Like Aakrit? click here </h3>
+                    
+                    <ul class="social">
+                        <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.row--> 
+        </div>
+        <!--/.container--> 
+    </div>
+    <!--/.footer-->
+    
+    <div class="footer-bottom">
+        <div class="container">
+            <p class="pull-left"> Copyright © 2015-16 </p>
+            <div class="pull-right">
+                <ul class="nav nav-pills payments">
+                	<li><i class="fa fa-cc-visa"></i></li>
+                    <li><i class="fa fa-cc-mastercard"></i></li>
+                    <li><i class="fa fa-cc-amex"></i></li>
+                    <li><i class="fa fa-cc-paypal"></i></li>
+                </ul> 
+            </div>
+        </div>
+    </div>
+    <!--/.footer-bottom--> 
+</footer> 
     </body>
 </html>
+
+
+
+
+
